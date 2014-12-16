@@ -15,6 +15,53 @@ Redis on Windows
 - There is support for the 64-bit version. We have dropped official support for the 32-bit version, though you can build it from source if desired.
 - The binaries (unsigned) have been moved to a zip file in the \bin folder to make them easier to find. The Release build automatically updates the
   zip file.
+- Signed binaries
+- 
+
+
+[![Windows Status](http://img.shields.io/appveyor/ci/MSOpenTech-lab/redis.svg?style=flat-square)](https://ci.appveyor.com/project/MSOpenTech-lab/redis)
+
+[![NuGet version](http://img.shields.io/nuget/v/redis-64.svg?style=flat-square)](http://www.nuget.org/packages/redis-64/)
+[![NuGet downloads](http://img.shields.io/nuget/dt/redis-64.svg?style=flat-square)](http://www.nuget.org/packages/redis-64/)
+
+[![Chocolatey version](http://img.shields.io/chocolatey/v/redis-64.svg?style=flat-square)](http://www.chocolatey.org/packages/redis-64/)
+[![Chocolatey downloads](http://img.shields.io/chocolatey/dt/redis-64.svg?style=flat-square)](http://www.chocolatey.org/packages/redis-64/)
+
+Redis on Windows 
+===
+
+## Redis 2.8 Branch
+
+- This is a port for Windows based on Redis 2.8. The latest version merged in 2.8.14.
+- There is support for the 64-bit version. We have dropped official support for the 32-bit version, though you can build it from source if desired.
+- The binaries (unsigned) have been moved to a zip file in the \bin folder to make them easier to find. The Release build automatically updates the
+  zip file.
+- Signed binaries
+- 
+
+
+#TEST  FOR CLA
+
+
+
+
+[![Windows Status](http://img.shields.io/appveyor/ci/MSOpenTech-lab/redis.svg?style=flat-square)](https://ci.appveyor.com/project/MSOpenTech-lab/redis)
+
+[![NuGet version](http://img.shields.io/nuget/v/redis-64.svg?style=flat-square)](http://www.nuget.org/packages/redis-64/)
+[![NuGet downloads](http://img.shields.io/nuget/dt/redis-64.svg?style=flat-square)](http://www.nuget.org/packages/redis-64/)
+
+[![Chocolatey version](http://img.shields.io/chocolatey/v/redis-64.svg?style=flat-square)](http://www.chocolatey.org/packages/redis-64/)
+[![Chocolatey downloads](http://img.shields.io/chocolatey/dt/redis-64.svg?style=flat-square)](http://www.chocolatey.org/packages/redis-64/)
+
+Redis on Windows 
+===
+
+## Redis 2.8 Branch
+
+- This is a port for Windows based on Redis 2.8. The latest version merged in 2.8.14.
+- There is support for the 64-bit version. We have dropped official support for the 32-bit version, though you can build it from source if desired.
+- The binaries (unsigned) have been moved to a zip file in the \bin folder to make them easier to find. The Release build automatically updates the
+  zip file.
 - Signed binaries can be downloaded using Nuget and Chocolatey.
 - There is a replacement for the UNIX fork() API that simulates the copy-on-write behavior using a memory mapped file.
 - Because Redis makes some assumptions about the values of File Descriptors, we have built a virtual file descriptor mapping layer. 
